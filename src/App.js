@@ -1,28 +1,27 @@
 import React from 'react';
-// import { BrowserRouter, Route, Link } from 'react-router-dom';
-import Portfolio from './pages/Portfolio.js';
-import About from './pages/About.js';
-import Contact from './pages/Contact.js';
-import Resume from './pages/Resume.js';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Portfolio from './pages/Portfolio';
+import About from './pages/About';
+import Contact from './pages/Contact';
+import Resume from './pages/Resume';
+import Navbar from './components/Navbar';
 
 
 function App() {
   return (
-
-    <div>
-      <header>
-        <p>
-          Clayton McIntosh
-
-        </p>
-
-        <About />
-        <Portfolio />
-        <Contact />
-        <Resume />
-
-      </header>
-    </div>
+    <BrowserRouter>
+      <div>
+        <header>
+          <Navbar />
+ </header>
+        <Routes>
+          <Route path="about" element={<About />} />
+          <Route path="portfolio" element={<Portfolio />} />
+          <Route path="contact" element={<Contact />} />
+          <Route path="resume" element={<Resume />} />
+        </Routes>
+      </div>
+    </BrowserRouter>
   );
 }
 
@@ -53,14 +52,6 @@ export default App;
 
 // const rootElement = document.getElementById("root");
 // render(
-//   <BrowserRouter>
-//     <Routes>
-//       <Route path="/" element={<App />} />
-//       <Route path="about" element={<About />} />
-//       <Route path="portfolio" element={<Portfolio />} />
-//       <Route path="contact" element={<Contact />} />
-//       <Route path="resume" element={<Resume />} />
-//     </Routes>
-//   </BrowserRouter>,
+
 //   rootElement
 // );
