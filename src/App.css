@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Spectral&display=swap');
+
+:root {
+    --Green: #65ac70;
+    --Yellow: #f9ee75;
+    --Blue: #5ab0c7;
+    --Red: #ee5f5d;
+    --Purple: #88579d;
+    --Orange: #efb323;
+    --Black: #161616;
+    --Grey: #e5e5e5;
+    --DarkGrey: #6a6a6a;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Karla", sans-serif;
+}
+
+p {
+    font-family: "Spectral", serif;
+}
+
+h1 {
+    /* text-align: center; */
+    padding: 5%;
+    font-size: 2rem;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer {
+    padding: 3%;
+}
+
+
+
+/* media queries used to make the page responsive for tablet and desktop */
+@media screen and (min-width: 600px) {
+
+    nav {
+        flex-direction: row;
+        /* justify-content: flex-end; */
+    }
+
+
+}
+
+@media screen and (min-width: 768px) {
+
+    nav {
+        flex-direction: row;
+    }
+
+}
