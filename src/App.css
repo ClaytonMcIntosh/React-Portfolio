@@ -32,6 +32,21 @@ h1 {
     font-size: 2rem;
 }
 
+.main-nav {
+    background-color: #e0bbbb;
+
+}
+
+.menu-item {
+    margin: 10px;
+    padding: 10px;
+    border: solid red 1px;
+    border-radius: 10px;
+    background-color: #65ac70;
+    font-size: larger;
+    font-family: "Karla", sans-serif;
+}
+
 nav {
     display: flex;
     flex-direction: column;
