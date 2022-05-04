@@ -1,14 +1,14 @@
 import React from "react"
-import Cards from "../components/Cards";
+import Deck from "../components/Deck";
 
-function Portfolio(props) {
+const Portfolio = ({ deckName }) => {
     return (
         <div className="page">
             <h1>Portfolio</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, alias.a</p>
-            <Cards />
+            <Deck deckName="Web Development" />
         </div>
     )
 }
 
 export default Portfolio;
+

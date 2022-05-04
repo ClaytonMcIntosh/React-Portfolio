@@ -9,11 +9,11 @@ const style = {
     top: '50%',
     left: '50%',
     transform: 'translate(-50%, -50%)',
-    width: 400,
+    width: '80%',
     bgcolor: 'background.paper',
     border: '2px solid #000',
     boxShadow: 24,
-    p: 4,
+    p: 2,
 };
 
 export default function BasicModal() {
@@ -23,7 +23,7 @@ export default function BasicModal() {
 
     return (
         <div>
-            <Button onClick={handleOpen}><img src="/assets/img/Placeholder-300px.jpeg" alt="Blah" /></Button>
+            <Button onClick={handleOpen}><img src="/assets/img/Placeholder-300px.jpeg" alt="Placeholder" /></Button>
             <Modal
                 open={open}
                 onClose={handleClose}
@@ -33,6 +33,7 @@ export default function BasicModal() {
                 <Box sx={style}>
                     <Typography id="modal-modal-title" variant="h6" component="h2">
                         Text in a modal
+                        <img src="/assets/img/Placeholder-300px.jpeg" alt="Blah" />
                     </Typography>
                     <Typography id="modal-modal-description" sx={{ mt: 2 }}>
                         Duis mollis, est non commodo luctus, nisi erat porttitor ligula.

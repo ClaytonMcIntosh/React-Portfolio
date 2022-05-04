@@ -38,6 +38,22 @@ h1 {
     margin: 0%;
 }
 
+.deck {
+    background-color: #ababab;
+    text-align: center;
+    border: #161616 solid 1px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    border: #161616 solid 1px;
+    padding: 5px;
+}
+
+.extra-cards {
+    display: none;
+}
 
 .site-name-container {
     padding: 20px;
