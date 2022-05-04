@@ -1,7 +1,7 @@
 export const instaTest = [
     {
         id: 1,
-        img: '/assets/img/insta-test/IMG_3801.JPG',
+        img: './assets/img/insta-test/IMG_3801.JPG',
         heading: 'Tetsujin 28',
         text: 'An old instagram photo taken in Shin Nagatta, Kobe Japan.'
     },
