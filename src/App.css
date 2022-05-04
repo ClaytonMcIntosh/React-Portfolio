@@ -13,6 +13,7 @@
     --DarkGrey: #6a6a6a;
 }
 
+
 h1,
 h2,
 h3,
@@ -27,53 +28,44 @@ p {
 }
 
 h1 {
-    /* text-align: center; */
-    padding: 5%;
     font-size: 2rem;
+    text-align: center;
 }
 
 .main-nav {
     background-color: #e0bbbb;
+    padding: 0%;
+    margin: 0%;
+}
+
+
+.site-name-container {
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+
+.main-menu {
+    background-color: #7fd4fb;
+    display: flex;
+    flex-direction: column;
 
 }
 
 .menu-item {
-    margin: 10px;
-    padding: 10px;
-    border: solid red 1px;
-    border-radius: 10px;
+    border: #161616 solid 1px;
+    padding: 5px 0px;
     background-color: #65ac70;
-    font-size: larger;
+    text-align: center;
     font-family: "Karla", sans-serif;
-}
-
-nav {
-    display: flex;
-    flex-direction: column;
+    font-size: x-large;
+    justify-content: space-evenly;
     align-items: center;
 }
 
-footer {
-    padding: 3%;
-}
-
-
-
-/* media queries used to make the page responsive for tablet and desktop */
-@media screen and (min-width: 600px) {
-
-    nav {
-        flex-direction: row;
-        /* justify-content: flex-end; */
-    }
-
-
-}
-
-@media screen and (min-width: 768px) {
-
-    nav {
-        flex-direction: row;
-    }
-
+.page {
+    padding: 10px;
+    background-color: #efb323;
+    border: solid red 1px;
 }
