@@ -37,19 +37,19 @@ export const instaTest = [
     },
     {
         id: 7,
-        img: '/assets/img/insta-test/5711.JPG',
+        img: '/assets/img/insta-test/IMG_5711.JPG',
         heading: 'Lorem 7',
         text: 'Consectetur adipisicing elit.'
     },
     {
         id: 8,
-        img: '/assets/img/insta-test/5881.JPG',
+        img: '/assets/img/insta-test/IMG_5881.JPG',
         heading: 'Lorem 8',
         text: 'Amet dolor sit amet consectetur adipisicing elit.'
     },
     {
         id: 9,
-        img: '/assets/img/insta-test/6401.JPG',
+        img: '/assets/img/insta-test/IMG_6401.JPG',
         heading: 'Lorem 9',
         text: 'Elit consectetur adipisicing elit.'
     },

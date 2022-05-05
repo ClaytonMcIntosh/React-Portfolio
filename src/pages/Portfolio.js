@@ -6,6 +6,7 @@ const Portfolio = ({ deckName }) => {
         <div className="page">
             <h1>Portfolio</h1>
             <Deck deckName="Web Development" />
+
         </div>
     )
 }
