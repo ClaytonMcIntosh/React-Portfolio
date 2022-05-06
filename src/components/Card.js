@@ -1,13 +1,14 @@
 import React from 'react'
+import BasicModal from "./Modal"
 
-const Card = ({ id, img, heading, text }) => {
+const Card = ({ img, heading, text }) => {
     return (
-            <div className='card'>
-                <img className="small-img" src={img} alt="" />
-                {/* <h1> {heading} </h1>
-                <p> {text} </p> */}
-            </div>
+        <div className='card'>
+            <BasicModal img={img} heading={heading} text={text} />
+        </div>
     )
 }
 
 export default Card
+
+

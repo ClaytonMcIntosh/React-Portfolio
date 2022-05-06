@@ -1,10 +1,6 @@
 import Card from "./Card"
 
-
-
-
 function Deck(props) {
-  console.log(props.data);
   return (
     <section className="deck">
       <h2 className="portfolio-headings"> {props.headerName} </h2>

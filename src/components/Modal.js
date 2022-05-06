@@ -16,14 +16,15 @@ const style = {
     p: 2,
 };
 
-export default function BasicModal() {
+export default function BasicModal({ img, heading, text }) {
     const [open, setOpen] = React.useState(false);
     const handleOpen = () => setOpen(true);
     const handleClose = () => setOpen(false);
 
+
     return (
         <div>
-            <Button onClick={handleOpen}><img src="/assets/img/Placeholder-300px.jpeg" alt="Placeholder" /></Button>
+            <Button onClick={handleOpen}><img src={img} alt="" width="100%" /></Button>
             <Modal
                 open={open}
                 onClose={handleClose}
@@ -32,11 +33,11 @@ export default function BasicModal() {
             >
                 <Box sx={style}>
                     <Typography id="modal-modal-title" variant="h6" component="h2">
-                        Text in a modal
-                        <img src="/assets/img/Placeholder-300px.jpeg" alt="temp" />
+                        {heading}
+                        <img src={img} alt="" width="100%" />
                     </Typography>
                     <Typography id="modal-modal-description" sx={{ mt: 2 }}>
-                        Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
+                        {text}
                     </Typography>
                 </Box>
             </Modal>
