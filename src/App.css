@@ -13,7 +13,6 @@
     --DarkGrey: #6a6a6a;
 }
 
-
 h1,
 h2,
 h3,
@@ -38,43 +37,17 @@ h1 {
     margin: 0%;
 }
 
-.small-img {
-    width: 80%
-}
-
-.deck {
-    background-color: #ababab;
-    text-align: center;
-    border: #161616 solid 1px;
+.main-menu {
+    background-color: #7fd4fb;
     display: flex;
-    flex: 0 0 33.3333%;
-    flex-wrap: wrap;
-}
+    flex-direction: column;
 
-
-.card {
-    padding: 10px;
-    margin: 10px;
-    background-color: yellowgreen;
-    flex: 0 0 20%;
-}
-
-.extra-cards {
-    display: none;
 }
 
 .site-name-container {
     padding: 20px;
     width: 100%;
     text-align: center;
-}
-
-
-.main-menu {
-    background-color: #7fd4fb;
-    display: flex;
-    flex-direction: column;
-
 }
 
 .menu-item {
@@ -88,8 +61,27 @@ h1 {
     align-items: center;
 }
 
+.deck {
+    background-color: #ababab;
+    text-align: center;
+    border: #161616 solid 1px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    background-color: yellowgreen;
+    padding: 1%;
+    width: 30%;
+    border: black solid 1px;
+}
+
+.small-img {
+    width: 100%
+}
+
 .page {
-    padding: 10px;
     background-color: #efb323;
     border: solid red 1px;
 }
