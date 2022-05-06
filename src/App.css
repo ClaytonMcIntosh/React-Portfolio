@@ -163,11 +163,24 @@ h1 {
 
     }
 
-    .page {
+    .about-page {
         margin: 20px;
         display: flex;
         justify-content: center;
 
+    }
+
+    .contact-page {
+        margin: 20px;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .contact-form {
+        border: #161616 solid 2px;
+        width: 60%;
+        margin: 5px;
     }
 
     .main-about-line {
