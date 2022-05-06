@@ -112,6 +112,13 @@ h1 {
     padding: 2%
 }
 
+
+.contact-form {
+    margin: 3%;
+    padding: 1%;
+    border-radius: 10px;
+}
+
 .footer {
     background-color: #161616;
     height: 300px;
