@@ -3,7 +3,7 @@ import React from "react"
 function Contact(props) {
     return (
         <div className="page">
-            <h1>Contact</h1>
+            <h1 className="page-headings">Contact</h1>
             <p className="info">Fill in the form below to send Clayton a message:</p>
             <form className="contact-form">
                 <label >Name:</label><br />

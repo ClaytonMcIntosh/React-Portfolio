@@ -28,14 +28,14 @@ const data = [
         headerName: 'Web Development'
     },
     {
-        id: 15,
+        id: 16,
         img: './assets/img/webdev/webdev - scribble-faith.png',
         heading: 'Scribble Faith',
         text: 'text',
         headerName: 'Web Development'
     },
     {
-        id: 14,
+        id: 17,
         img: './assets/img/webdev/webdev - sort-a-meal.png',
         heading: 'Sort-a-',
         text: 'text',
