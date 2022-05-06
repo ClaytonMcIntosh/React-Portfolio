@@ -1,11 +1,14 @@
 import Card from "./Card"
-import data from "./data";
 
-function Deck({headerName}) {
+
+
+
+function Deck(props) {
+  console.log(props.data);
   return (
     <section className="deck">
-      <h2 className="portfolio-headings"> {headerName} </h2>
-      {data.map((element) => {
+      <h2 className="portfolio-headings"> {props.headerName} </h2>
+      {props.data.map((element) => {
         return (
           <Card key={element.id} img={element.img} heading={element.heading} text={element.text} />
         );
