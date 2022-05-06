@@ -1,12 +1,13 @@
 import Card from "./Card"
-import { instaTest } from "./data";
+import data from "./data";
 
-function Deck() {
+function Deck({headerName}) {
   return (
     <section className="deck">
-      {instaTest.map((element) => {
+      <h2 className="portfolio-headings"> {headerName} </h2>
+      {data.map((element) => {
         return (
-            <Card img={element.img} heading={element.heading} text={element.text} />
+          <Card key={element.id} img={element.img} heading={element.heading} text={element.text} />
         );
       })}
     </section>);

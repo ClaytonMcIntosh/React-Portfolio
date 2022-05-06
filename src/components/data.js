@@ -1,4 +1,4 @@
-export const instaTest = [
+const instaTest = [
     {
         id: 1,
         img: './assets/img/insta-test/IMG_3801.JPG',
@@ -55,3 +55,21 @@ export const instaTest = [
     },
 ]
 
+const webDev = [
+    {
+        id: 1,
+        img: './assets/img/Placeholder-300px.jpeg',
+        heading: 'Webdev1',
+        text: 'Webdev.'
+    },
+    {
+        id: 2,
+        img: './assets/img/Placeholder-300px.jpeg',
+        heading: 'Webdev2',
+        text: 'Webdev2.'
+    },
+]
+
+
+
+export default instaTest;
