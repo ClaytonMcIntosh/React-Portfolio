@@ -1,5 +1,47 @@
 const data = [
     {
+        id: 12,
+        img: './assets/img/webdev/webdev - memory.png',
+        heading: 'Memory',
+        text: 'Memory text',
+        headerName: 'Web Development'
+    },
+    {
+        id: 13,
+        img: './assets/img/webdev/webdev - my-team.png',
+        heading: 'My Team',
+        text: 'text',
+        headerName: 'Web Development'
+    },
+    {
+        id: 14,
+        img: './assets/img/webdev/webdev - novel-space.png',
+        heading: 'Novel Space',
+        text: 'text',
+        headerName: 'Web Development'
+    },
+    {
+        id: 15,
+        img: './assets/img/webdev/webdev - quiz.png',
+        heading: 'Quiz',
+        text: 'text',
+        headerName: 'Web Development'
+    },
+    {
+        id: 15,
+        img: './assets/img/webdev/webdev - scribble-faith.png',
+        heading: 'Scribble Faith',
+        text: 'text',
+        headerName: 'Web Development'
+    },
+    {
+        id: 14,
+        img: './assets/img/webdev/webdev - sort-a-meal.png',
+        heading: 'Sort-a-',
+        text: 'text',
+        headerName: 'Web Development'
+    },
+    {
         id: 1,
         img: './assets/img/insta-test/IMG_3801.JPG',
         heading: 'Tetsujin 28',
@@ -61,20 +103,6 @@ const data = [
         heading: 'Lorem 9',
         text: 'Elit consectetur adipisicing elit.',
         headerName: 'Instagram Test'
-    },
-    {
-        id: 1,
-        img: './assets/img/Placeholder-300px.jpeg',
-        heading: 'Webdev1',
-        text: 'Webdev.',
-        headerName: 'Web Development'
-    },
-    {
-        id: 2,
-        img: './assets/img/Placeholder-300px.jpeg',
-        heading: 'Webdev2',
-        text: 'Webdev2.',
-        headerName: 'Web Development'
     },
 ]
 

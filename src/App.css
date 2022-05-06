@@ -24,6 +24,7 @@ h6 {
 
 p {
     font-family: "Spectral", serif;
+    margin: 10px 0px;
 }
 
 h1 {
@@ -33,53 +34,73 @@ h1 {
 }
 
 .main-nav {
-    background-color: #e0bbbb;
     padding: 0%;
     margin: 0%;
 }
 
+.info {
+    margin: 3%;
+    padding: 1%;
+    border-radius: 10px;
+}
+
 .main-menu {
-    background-color: #7fd4fb;
     display: flex;
     flex-direction: column;
 
 }
 
 .site-name-container {
-    padding: 20px;
-    width: 100%;
+    margin: 3%;
+    padding: 1%;
+    border-radius: 10px;
     text-align: center;
+    border: #161616 solid 2px;
+    border-radius: 10px;
 }
 
 .menu-item {
-    border: #161616 solid 1px;
-    padding: 5px 0px;
-    background-color: #65ac70;
+    padding: 3px 0px;
     text-align: center;
     font-family: "Karla", sans-serif;
     font-size: x-large;
     justify-content: space-evenly;
     align-items: center;
+    border: #161616 solid 2px;
+    border-radius: 10px;
+    margin: .5% 20%;
 }
 
-.page-headings{
- padding-top: 5%;
+.page {
+    margin: 3%;
+    padding: 1%;
+    border: #161616 solid 2px;
+    border-radius: 10px;
+}
+
+.clayton-img {
+    width: 50%;
+    display: block;
+    margin: auto;
+    padding: 10%;
+    border-radius: 100%;
+}
+
+.page-headings {
+    padding-top: 5%;
 }
 
 .deck {
-    background-color: #ababab;
     text-align: center;
-    border: #161616 solid 1px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
 .card {
-    background-color: yellowgreen;
     padding: 1%;
     width: 30%;
-    border: black solid 1px;
+
 }
 
 .small-img {
@@ -87,12 +108,14 @@ h1 {
 }
 
 .portfolio-headings {
-    background-color: #f9ee75;
     width: 100%;
     padding: 2%
 }
 
-.page {
-    background-color: #efb323;
-    border: solid red 1px;
+.footer {
+    background-color: #161616;
+    height: 300px;
+    color: #6a6a6a;
+    padding: 10%;
+    text-align: center;
 }
