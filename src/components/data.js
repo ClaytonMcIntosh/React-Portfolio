@@ -1,108 +1,51 @@
 const data = [
     {
+        id: 14,
+        img: './assets/img/webdev/webdev - novel-space.png',
+        heading: 'Novel Space',
+        text: "Novel Space is an application for the book lovers at your work place. Simply, it's a shared digital book shelf. Each book lover can place the books they own and recommend on the 'shelf' for others in their workplace to view.",
+        websiteAddress: "https://github.com/lconnell1000/Project-2-Employee-Bookclub",
+        headerName: 'Web Development - Group Projects'
+    },
+    {
         id: 12,
         img: './assets/img/webdev/webdev - memory.png',
         heading: 'Memory',
-        text: 'Memory text',
-        headerName: 'Web Development'
+        text: 'The classic game created with vanilla JavaScript',
+        websiteAddress: "https://github.com/ClaytonMcIntosh/Memory-Game",
+        headerName: 'Web Development - Personal Projects'
     },
     {
         id: 13,
         img: './assets/img/webdev/webdev - my-team.png',
         heading: 'My Team',
         text: 'text',
-        headerName: 'Web Development'
-    },
-    {
-        id: 14,
-        img: './assets/img/webdev/webdev - novel-space.png',
-        heading: 'Novel Space',
-        text: 'text',
-        headerName: 'Web Development'
+        websiteAddress: "",
+        headerName: 'Web Development - Bootcamp Homework'
     },
     {
         id: 15,
         img: './assets/img/webdev/webdev - quiz.png',
         heading: 'Quiz',
         text: 'text',
-        headerName: 'Web Development'
+        websiteAddress: "",
+        headerName: 'Web Development - Bootcamp Homework'
     },
     {
         id: 16,
         img: './assets/img/webdev/webdev - scribble-faith.png',
         heading: 'Scribble Faith',
         text: 'text',
-        headerName: 'Web Development'
+        websiteAddress: "",
+        headerName: 'Web Development - Personal Projects'
     },
     {
         id: 17,
         img: './assets/img/webdev/webdev - sort-a-meal.png',
-        heading: 'Sort-a-',
-        text: 'text',
-        headerName: 'Web Development'
-    },
-    {
-        id: 1,
-        img: './assets/img/insta-test/IMG_3801.JPG',
-        heading: 'Tetsujin 28',
-        text: 'An old instagram photo taken in Shin Nagatta, Kobe Japan.',
-        headerName: 'Instagram Test'
-    },
-    {
-        id: 2,
-        img: '/assets/img/insta-test/IMG_5128.JPG',
-        heading: 'Water Structure',
-        text: 'A strange structure I found built over a river in Japan',
-        headerName: 'Instagram Test'
-    },
-    {
-        id: 3,
-        img: '/assets/img/insta-test/IMG_5486.JPG',
-        heading: 'Izakai',
-        text: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia, molestiae.',
-        headerName: 'Instagram Test'
-    },
-    {
-        id: 4,
-        img: '/assets/img/insta-test/IMG_5512.JPG',
-        heading: 'Lorem ipsum',
-        text: 'Dolor sit amet consectetur adipisicing elit.',
-        headerName: 'Instagram Test'
-    },
-    {
-        id: 5,
-        img: '/assets/img/insta-test/IMG_5631.JPG',
-        heading: 'Lorem 5',
-        text: 'Sit amet consectetur adipisicing elit.',
-        headerName: 'Instagram Test'
-    },
-    {
-        id: 6,
-        img: '/assets/img/insta-test/IMG_5654.JPG',
-        heading: 'Lorem 6',
-        text: 'Amet consectetur adipisicing elit.',
-        headerName: 'Instagram Test'
-    },
-    {
-        id: 7,
-        img: '/assets/img/insta-test/IMG_5711.JPG',
-        heading: 'Lorem 7',
-        text: 'Consectetur adipisicing elit.',
-        headerName: 'Instagram Test'
-    },
-    {
-        id: 8,
-        img: '/assets/img/insta-test/IMG_5881.JPG',
-        heading: 'Lorem 8',
-        text: 'Amet dolor sit amet consectetur adipisicing elit.',
-        headerName: 'Instagram Test'
-    },
-    {
-        id: 9,
-        img: '/assets/img/insta-test/IMG_6401.JPG',
-        heading: 'Lorem 9',
-        text: 'Elit consectetur adipisicing elit.',
-        headerName: 'Instagram Test'
+        heading: 'Sort A Meal',
+        text: 'Sort a Meal helps solve the problem of being indecisive at meal time. The app gathers local restaurants or recipes and helps you sort through meal options so you can find a meal you want.',
+        websiteAddress: "https://github.com/mckayjalex/sort-a-meal",
+        headerName: 'Web Development - Group Projects'
     },
 ]
 

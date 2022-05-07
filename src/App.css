@@ -50,6 +50,8 @@ h1 {
 
 }
 
+
+
 .site-name-container {
     margin: 3%;
     padding: 1%;
@@ -66,9 +68,17 @@ h1 {
     font-size: large;
     justify-content: space-evenly;
     align-items: center;
-    border: #161616 solid 2px;
-    border-radius: 10px;
+
     margin: .5% 20%;
+}
+
+.active-class {
+    background-color: #f9ee75;
+    color: #efb323;
+}
+
+.not-active-class {
+    color: #5ab0c7
 }
 
 .page {
@@ -76,6 +86,11 @@ h1 {
     padding: 1%;
     border: #161616 solid 2px;
     border-radius: 10px;
+}
+
+.card-image {
+    border: #161616 solid 2px;
+    box-shadow: 5px 5px 5px #1616164f
 }
 
 .clayton-img {
@@ -129,7 +144,10 @@ h1 {
 
 @media screen and (min-width: 650px) {
 
-    h1 {}
+    h2 {
+        font-size: 2rem;
+        padding: 10px;
+    }
 
 
     .main-nav {
@@ -201,19 +219,5 @@ h1 {
     .page-text {
         padding: 25px;
     }
-
-    .deck {}
-
-    .card {}
-
-    .small-img {}
-
-    .portfolio-headings {}
-
-
-    .contact-form {}
-
-    .footer {}
-
 
 }

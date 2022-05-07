@@ -1,13 +1,13 @@
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import Menuitem from './Menuitem';
 
 const Mainmenu = () => {
   return (
     <div className='main-menu'>
-      <Link to="/About"> <Menuitem text='About' /> </Link>
-      <Link to="/Portfolio"> <Menuitem text='Portfolio' /></Link>
-      <Link to="/Contact"> <Menuitem text='Contact' /> </Link>
-      <Link to="/Resume"> <Menuitem text='Resume' /> </Link>
+      <NavLink to="/About" className={({ isActive }) => (isActive ? "active-class" : "not-active-class")} > <Menuitem text='About' /> </NavLink>
+      <NavLink to="/Portfolio" className={({ isActive }) => (isActive ? "active-class" : "not-active-class")} > <Menuitem text='Portfolio' /></NavLink>
+      <NavLink to="/Contact" className={({ isActive }) => (isActive ? "active-class" : "not-active-class")} > <Menuitem text='Contact' /> </NavLink>
+      <NavLink to="/Resume" className={({ isActive }) => (isActive ? "active-class" : "not-active-class")} > <Menuitem text='Resume' /> </NavLink>
     </div>
   )
 }

@@ -6,7 +6,7 @@ function Deck(props) {
       <h2 className="portfolio-headings"> {props.headerName} </h2>
       {props.data.map((element) => {
         return (
-          <Card key={element.id} img={element.img} heading={element.heading} text={element.text} />
+          <Card key={element.id} img={element.img} heading={element.heading} text={element.text} websiteAddress={element.websiteAddress} />
         );
       })}
     </section>);
