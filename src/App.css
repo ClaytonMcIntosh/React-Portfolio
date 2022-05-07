@@ -99,6 +99,17 @@ h1 {
     display: inline;
     padding: 6px;
     margin: 6px;
+
+}
+
+
+.resume-link-button {
+    border: #161616 solid 2px;
+    border-radius: 10px;
+    display: flexbox;
+    flex-wrap: wrap;
+    padding: 6px;
+    margin: 6px;
 }
 
 .clayton-img {
@@ -231,7 +242,18 @@ h1 {
     }
 
     .page-text {
+
         padding: 25px;
     }
 
+    .contacts {
+        padding: 20px;
+        color: var(--Yellow)
+    }
+
+    .contactsbox {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
 }
