@@ -6,13 +6,13 @@ function Contact(props) {
             <div className="contact-page">
                 <h1 className="page-headings">Contact</h1>
                 <form className="contact-form">
-                    <p>Fill in the form below to send Clayton a message:</p>
-                    <label >Name:</label><br />
-                    <input className="form-el" type="text" id="name" required placeholder="Field required" /> <br />
-                    <label className="form-el" for="message">Email:</label> <br />
-                    <label for="email">Enter your email:</label>
-                    <input type="email" id="email" pattern='[a-z0-9]+@[a-z]+\.[a-z]{2,3}' size="30" required /> <br />
-                    <textarea name="message" rows="10" cols="30" required placeholder="Field required" /> <br />
+                    <h3>Fill in the form below to send Clayton a message:</h3>
+                    <label className="form-el" for="name" >Enter your name:</label><br />
+                    <input className="form-el" type="text" id="name" required placeholder="Field required" size="50" /> <br />
+                    <label className="form-el" for="email">Enter your email:</label> <br />
+                    <input className="form-el" type="email" id="email" pattern='[a-z0-9]+@[a-z]+\.[a-z]{2,3}' size="50" required placeholder="Valid email format required" /> <br />
+                    <label className="form-el" for="message">Write a message:</label> <br />
+                    <textarea className="form-el" name="message" rows="10" cols="43" required placeholder="Field required" /> <br />
                     <input type="submit" value="Submit" /> <br />
                 </form>
             </div>

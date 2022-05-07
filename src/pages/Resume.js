@@ -3,8 +3,17 @@ import React from "react"
 function Resume(props) {
     return (
         <div className="page">
-            <h1 className="page-headings">Resume</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere nobis repellendus ipsam eveniet cum magni veniam minima dolore tenetur ut laboriosam doloremque architecto ex atque commodi, error vero praesentium quibusdam.</p>
+            <div className="about-page">
+                <h1 className="page-headings">Resume</h1>
+                <div className="info">
+                    <h2 className="main-about-line">Download Clayton's resume </h2>
+                    <div className="page-text">
+                        <p className="link-button"> Click to view Clayton's professional resume.</p>
+
+                        <p className="link-button">Click to view Clayton's creative portfolio. </p>
+                    </div>
+                </div>
+            </div>
         </div>
     )
 }

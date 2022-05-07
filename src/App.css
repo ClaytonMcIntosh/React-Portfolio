@@ -136,8 +136,8 @@ h1 {
 }
 
 .form-el {
-    padding: 20px;
-    margin: 20px;
+    padding: 5px;
+    margin: 5px;
 }
 
 
@@ -145,6 +145,7 @@ h1 {
     margin: 3%;
     padding: 1%;
     border-radius: 10px;
+    text-align: center;
 }
 
 .footer {
