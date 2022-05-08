@@ -63,17 +63,6 @@ h1 {
     border-radius: 10px;
 }
 
-.menu-item {
-    padding: 3px 0px;
-    text-align: center;
-    font-family: "Karla", sans-serif;
-    font-size: large;
-    justify-content: space-evenly;
-    align-items: center;
-
-    margin: .5% 20%;
-}
-
 .active-class {
     background-color: var(--Yellow);
     color: var(--Orange);
@@ -82,6 +71,19 @@ h1 {
 .not-active-class {
     color: white;
 }
+
+.menu-item {
+    padding: 3px 0px;
+    text-align: center;
+    font-family: "Karla", sans-serif;
+    font-size: large;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: .5% 20%;
+    color: white;
+}
+
+
 
 .page {
     margin: 3%;
@@ -98,17 +100,15 @@ h1 {
 .link-button {
     border: #161616 solid 2px;
     border-radius: 10px;
-    display: inline;
     padding: 6px;
+    text-align: center;
     margin: 6px;
-
 }
 
 
 .resume-link-button {
     border: #161616 solid 2px;
     border-radius: 10px;
-    display: flexbox;
     flex-wrap: wrap;
     padding: 6px;
     margin: 6px;
@@ -261,5 +261,10 @@ h1 {
         display: flex;
         flex-direction: row;
         justify-content: center;
+    }
+
+    .link-button {
+        display: inline;
+
     }
 }

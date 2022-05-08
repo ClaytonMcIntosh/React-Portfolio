@@ -1,13 +1,20 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.490cc9ae.css",
-    "main.js": "/Portfolio/static/js/main.8a15b267.js",
+    "main.js": "/Portfolio/static/js/main.8ff91571.js",
+    "static/media/Portfolio - Clayton McIntosh.pdf": "/Portfolio/static/media/Portfolio - Clayton McIntosh.0fbc79b36fb85e8f225f.pdf",
+    "static/media/clayton-mcintosh.jpg": "/Portfolio/static/media/clayton-mcintosh.4f5de51854588886371e.jpg",
+    "static/media/Clayton McIntosh - Resume.pdf": "/Portfolio/static/media/Clayton McIntosh - Resume.72898119a914c33555fe.pdf",
+    "static/media/webdev - sort-a-meal.png": "/Portfolio/static/media/webdev - sort-a-meal.f1bb894d391fbb323799.png",
+    "static/media/webdev - scribble-faith.png": "/Portfolio/static/media/webdev - scribble-faith.6ebc26dadc7ad10f4714.png",
+    "static/media/webdev - novel-space.png": "/Portfolio/static/media/webdev - novel-space.cf45427abb0750112789.png",
+    "static/media/webdev - my-team.png": "/Portfolio/static/media/webdev - my-team.34083a4987bfb9d899f7.png",
     "index.html": "/Portfolio/index.html",
     "main.490cc9ae.css.map": "/Portfolio/static/css/main.490cc9ae.css.map",
-    "main.8a15b267.js.map": "/Portfolio/static/js/main.8a15b267.js.map"
+    "main.8ff91571.js.map": "/Portfolio/static/js/main.8ff91571.js.map"
   },
   "entrypoints": [
     "static/css/main.490cc9ae.css",
-    "static/js/main.8a15b267.js"
+    "static/js/main.8ff91571.js"
   ]
 }

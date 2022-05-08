@@ -13,7 +13,7 @@ function Resume(props) {
                         <a href={resume} alt=""><p className="resume-link-button"> Click to view Clayton's professional resume.</p></a> <br />
                         <a href={portfolio} alt=""><p className="resume-link-button">Click to view Clayton's creative portfolio. </p></a>
                     </div>
-                </div>
+                  </div>
             </div>
         </div>
     )
