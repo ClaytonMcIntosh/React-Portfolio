@@ -52,4 +52,4 @@ And here is the page responsive on desktop:
 
 As this is an app created in React, the final deployment was a litte tricky. Here is the final destination:
 
-Text [Link](https://github.com/).
+[Portfolio](https://claytonmcintosh.github.io/Portfolio/).
