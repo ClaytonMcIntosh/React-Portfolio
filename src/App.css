@@ -83,7 +83,9 @@ h1 {
     color: white;
 }
 
-
+.icon {
+    color: #efb323;
+}
 
 .page {
     margin: 3%;
