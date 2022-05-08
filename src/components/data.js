@@ -3,7 +3,7 @@ const data = [
         id: 14,
         img: './assets/img/webdev/webdev - novel-space.png',
         heading: 'Novel Space',
-        text: "Novel Space is an application for the book lovers at your work place. Simply, it's a shared digital book shelf. Each book lover can place the books they own and recommend on the 'shelf' for others in their workplace to view.",
+        text: "Novel Space is an application for the book lovers at your work place. It's a shared digital book shelf. Each book lover can place the books they own and recommend on the 'shelf' for others in their workplace to view.",
         websiteAddress: "https://novelspace.herokuapp.com/",
         git: "https://github.com/lconnell1000/Project-2-Employee-Bookclub",
         headerName: 'Web Development - Group Projects'
