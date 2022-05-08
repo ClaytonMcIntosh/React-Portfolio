@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.490cc9ae.css",
+    "main.css": "/Portfolio/static/css/main.f81f2f0c.css",
     "main.js": "/Portfolio/static/js/main.8ff91571.js",
     "static/media/Portfolio - Clayton McIntosh.pdf": "/Portfolio/static/media/Portfolio - Clayton McIntosh.0fbc79b36fb85e8f225f.pdf",
     "static/media/clayton-mcintosh.jpg": "/Portfolio/static/media/clayton-mcintosh.4f5de51854588886371e.jpg",
@@ -10,11 +10,11 @@
     "static/media/webdev - novel-space.png": "/Portfolio/static/media/webdev - novel-space.cf45427abb0750112789.png",
     "static/media/webdev - my-team.png": "/Portfolio/static/media/webdev - my-team.34083a4987bfb9d899f7.png",
     "index.html": "/Portfolio/index.html",
-    "main.490cc9ae.css.map": "/Portfolio/static/css/main.490cc9ae.css.map",
+    "main.f81f2f0c.css.map": "/Portfolio/static/css/main.f81f2f0c.css.map",
     "main.8ff91571.js.map": "/Portfolio/static/js/main.8ff91571.js.map"
   },
   "entrypoints": [
-    "static/css/main.490cc9ae.css",
+    "static/css/main.f81f2f0c.css",
     "static/js/main.8ff91571.js"
   ]
 }
