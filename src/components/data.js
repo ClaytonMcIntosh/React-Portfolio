@@ -1,7 +1,7 @@
 const data = [
     {
         id: 14,
-        img: './assets/img/webdev/webdev - novel-space.png',
+        img: require("../assets/img/webdev/webdev - novel-space.png"),
         heading: 'Novel Space',
         text: "Novel Space is an application for the book lovers at your work place. Simply, it's a shared digital book shelf. Each book lover can place the books they own and recommend on the 'shelf' for others in their workplace to view.",
         websiteAddress: "https://novelspace.herokuapp.com/",
@@ -10,7 +10,7 @@ const data = [
     },
     {
         id: 12,
-        img: './assets/img/webdev/webdev - memory.png',
+        img: require("../assets/img/webdev/webdev - memory.png"),
         heading: 'Memory',
         text: 'The classic game created with vanilla JavaScript',
         websiteAddress: "https://claytonmcintosh.github.io/Memory-Game/",
@@ -19,7 +19,7 @@ const data = [
     },
     {
         id: 13,
-        img: './assets/img/webdev/webdev - my-team.png',
+        img: require("../assets/img/webdev/webdev - my-team.png"),
         heading: 'Employee Tracker',
         text: 'A fun homework working with mySQL databases.',
         websiteAddress: "https://www.youtube.com/watch?v=75G3QBiU6ko&ab_channel=DomesticCowboy",
@@ -28,7 +28,7 @@ const data = [
     },
     {
         id: 15,
-        img: './assets/img/webdev/webdev - quiz.png',
+        img: require("../assets/img/webdev/webdev - quiz.png"),
         heading: 'Code Quiz',
         text: "A short code quiz made for bootcamp homework.",
         git: 'https://github.com/ClaytonMcIntosh/Homework-04-Code-Quiz',
@@ -37,7 +37,7 @@ const data = [
     },
     {
         id: 16,
-        img: './assets/img/webdev/webdev - scribble-faith.png',
+        img: require("../assets/img/webdev/webdev - scribble-faith.png"),
         heading: 'Scribble Faith',
         text: 'Scribble Faith is a personal project providing printables from Bible verses.',
         websiteAddress: "https://scribblefaith.com/",
@@ -46,7 +46,7 @@ const data = [
     },
     {
         id: 17,
-        img: './assets/img/webdev/webdev - sort-a-meal.png',
+        img: require("../assets/img/webdev/webdev - sort-a-meal.png"),
         heading: 'Sort A Meal',
         text: 'Sort a Meal helps solve the problem of being indecisive at meal time. The app gathers local restaurants or recipes and helps you sort through meal options so you can find a meal you want.',
         git: "https://github.com/mckayjalex/sort-a-meal",
