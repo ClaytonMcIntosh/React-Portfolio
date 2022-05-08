@@ -42,11 +42,11 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 
 The app was designed and created mobile-first. Here is the final version on a mobile:
 
-![ScreenShot](./public/assets/img/screenshot2.png)
+![ScreenShot](./src/assets/img/screenshot2.png)
 
 And here is the page responsive on desktop:
 
-![ScreenShot](./public/assets/img/screenshot1.png)
+![ScreenShot](./src/assets/img/screenshot1.png)
 
 ## Final App Deployment
 
