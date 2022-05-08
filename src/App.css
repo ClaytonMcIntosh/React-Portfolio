@@ -11,6 +11,7 @@
     --Black: #161616;
     --Grey: #e5e5e5;
     --DarkGrey: #6a6a6a;
+    background-color: var(--Black);
 }
 
 h1,
@@ -36,6 +37,7 @@ h1 {
 .main-nav {
     padding: 0%;
     margin: 0%;
+    background-color: var(--Black)
 }
 
 .info {
@@ -57,7 +59,7 @@ h1 {
     padding: 1%;
     border-radius: 10px;
     text-align: center;
-    border: #161616 solid 2px;
+    background-color: white;
     border-radius: 10px;
 }
 
@@ -73,18 +75,18 @@ h1 {
 }
 
 .active-class {
-    background-color: #f9ee75;
-    color: #efb323;
+    background-color: var(--Yellow);
+    color: var(--Orange);
 }
 
 .not-active-class {
-    color: #5ab0c7
+    color: white;
 }
 
 .page {
     margin: 3%;
     padding: 1%;
-    border: #161616 solid 2px;
+    background-color: white;
     border-radius: 10px;
 }
 
@@ -239,6 +241,10 @@ h1 {
         margin: 10px;
         padding: 10px;
         text-align: left;
+    }
+
+    .active-class {
+        border-radius: 10px;
     }
 
     .page-text {
