@@ -5,8 +5,12 @@ function Contact(props) {
         <div className="page">
             <div className="contact-page">
                 <h1 className="page-headings">Contact</h1>
-                <h3>Send Clayton an email:</h3>
-                <p>claymcintosh at gmail</p>
+                <div className="contact-form">
+                    <h1 className="page-headings">Contact</h1>
+                    <h3>Send Clayton an email:</h3>
+                    <br />
+                    <p>claymcintosh at gmail</p>
+                </div>
             </div>
         </div >
     )

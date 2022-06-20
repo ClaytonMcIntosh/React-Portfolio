@@ -53,6 +53,15 @@ const data = [
         websiteAddress: "https://mckayjalex.github.io/sort-a-meal/",
         headerName: 'Web Development - Group Projects'
     },
+    {
+        id: 18,
+        img: require("../assets/img/webdev/webdev - scavenger-hunt.png"),
+        heading: 'Scavenger Hunt',
+        text: 'Scavenger Hunt helps you create and record real world search-and-find games to play with kids, in the office or on a larger scale in your community.',
+        git: "https://github.com/ClaytonMcIntosh/scavenger-hunt",
+        websiteAddress: "https://scavengerhunt2022.herokuapp.com/",
+        headerName: 'Web Development - Final Project'
+    },
 ]
 
 
