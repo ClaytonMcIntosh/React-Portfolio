@@ -10,10 +10,9 @@ function Resume(props) {
                 <div className="info">
                     <h2 className="main-about-line">Download Clayton's resume </h2>
                     <div className="page-text">
-                        <a href={resume} alt=""><p className="resume-link-button"> Click to view Clayton's professional resume.</p></a> <br />
                         <a href={portfolio} alt=""><p className="resume-link-button">Click to view Clayton's creative portfolio. </p></a>
                     </div>
-                  </div>
+                </div>
             </div>
         </div>
     )

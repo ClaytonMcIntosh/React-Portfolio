@@ -9,7 +9,7 @@ const Footer = () => {
                         <div className="icon">
                             <i className="fab fa-linkedin"></i>
                         </div>
-                        <h4>Linked In</h4>
+                        <h4 className="icon">Linked In</h4>
                     </a>
                 </div>
                 <div className="contacts">
@@ -17,7 +17,7 @@ const Footer = () => {
                         <div className="icon">
                             <i className="fab fa-github"></i>
                         </div>
-                        <h4>Git Hub</h4>
+                        <h4 className="icon">Git Hub</h4>
                     </a>
                 </div>
                 <div className="contacts">
@@ -25,7 +25,7 @@ const Footer = () => {
                         <div className="icon">
                             <i className="fab fa-instagram-square"></i>
                         </div>
-                        <h4>Instagram</h4>
+                        <h4 className="icon">Instagram</h4>
                     </a>
                 </div>
             </div>
